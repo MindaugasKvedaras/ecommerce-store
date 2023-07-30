@@ -19,6 +19,6 @@ const HomePage = async () => {
       </div>
     </Container>
   )
-}
+};
 
 export default HomePage;
