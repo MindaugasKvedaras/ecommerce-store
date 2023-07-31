@@ -9,8 +9,6 @@ import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
 import MobileFilters from "./components/mobile-filters";
 
-export const revalidate = 0;
-
 interface CategoryPageProps {
     params: {
         categoryId: string;
@@ -74,6 +72,6 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
 
     </div>
   )
-}
+};
 
 export default CategoryPage;
